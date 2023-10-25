@@ -33,3 +33,16 @@ npx prisma migrate dev --name init
 npx prisma migrate deploy
 
 ```
+
+## Env
+
+```env
+
+#Github(WEB)
+GITHUB_CLIENT_ID=ID of the auth client
+GITHUB_CLIENT_SECRET= Secret
+
+Github(MOBILE)
+# GITHUB_CLIENT_ID = ID of the auth client
+# GITHUB_CLIENT_SECRET= Secret
+```
